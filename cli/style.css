@@ -1,0 +1,39 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.graph
+{
+    margin-top: 30px;
+}
+#canv
+{
+}
+.OZF_table, .OOF_table, .INF_table
+{
+    border : 2px solid #000;
+    padding: 10px 20px 10px 20px;
+    margin : 5px 5px 0 5px;
+    width  : fit-content;
+}
+.OZF_val
+{
+    width  : 175px;
+}
+
+input
+{
+    margin: 4px 0 0 5px;
+    padding: 5px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor:pointer;
+}

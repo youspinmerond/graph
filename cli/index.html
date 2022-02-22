@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="options">
+		  y=<span class="X"><input type="text" placeholder="Здесь значение X" class="form"></span><br>
+			<span class="OOF_"><input type="button" value="Область Определения Функции" class="OOF" onclick="OOF()"></span><br>
+			<span class="OZF_"><input type="button" value="Область Значений Функции" class="OZF" onclick="OZF()"></span><br>
+			<span class="INF_"><input type="button" value="Инфо" class="info" onclick="INF()"></span><br>
+			<span class="CLS_"><input type="button" value="Запуск и Очистка" class="clear" onclick="CLS()"></span>
+		</div>
+
+		<div class="graph">
+			<canvas id="canv" width=900 height=500>Вы не должны видеть этот текст</canvas>
+		</div>
+		<div>
+		  
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>

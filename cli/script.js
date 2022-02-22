@@ -59,8 +59,8 @@ const CLS = () => {
 	if( y <= 450 )
 	{
 	    ctx.beginPath()
-	    ctx.moveTo((i+449)*2, canv.height*.5-eval(config.VAL.value.replace("x",i-1)))
-	    ctx.lineTo((i+450)*2, canv.height*.5-y)
+	    ctx.moveTo((i+449), canv.height*.5-eval(config.VAL.value.replace("x",i-1)))
+	    ctx.lineTo((i+450), canv.height*.5-y)
 	    ctx.stroke()
 	}
     }
